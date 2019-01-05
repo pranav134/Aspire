@@ -472,8 +472,8 @@ li > a:only-child:after {
 }
 
 .banner-info-wthree h3 {
-    font-size: 2.3em;
-    letter-spacing: 1px;
+    font-size: 3em;
+    letter-spacing: 5px;
     color: #fff;
     margin: 0.7em 0;
     text-transform: uppercase;
