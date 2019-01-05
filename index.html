@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -52,7 +53,7 @@
                         <ul class="menu mt-2">
                             <li class="mr-lg-4 mr-3 active"><a href="#">Home</a></li>
                             <li class="mr-lg-4 mr-3"><a href="#about" class="scroll">About Us</a></li>
-                            <li class="mr-lg-4 mr-3"><a href="#services" class="scroll">Services</a></li>
+                            <li class="mr-lg-4 mr-3"><a href="#services" class="scroll">Events</a></li>
                             <li><a href="#contact" class="scroll">Contact</a></li>
                         </ul>
                     </nav>
@@ -122,7 +123,7 @@
                 </div>
                 <!-- services -->
                 <div class="fetured-info pt-lg-5" id="services">
-                    <h3 class="tittle  text-center my-lg-5 my-3"><span class="sub-tittle">What we do</span> Our Featured Services</h3>
+                    <h3 class="tittle  text-center my-lg-5 my-3"><span class="sub-tittle">What we do</span> Our Events</h3>
                     <div class="row fetured-sec mt-lg-5 mt-3">
                         <div class="col-lg-6 p-0">
                             <div class="img-effect">
@@ -133,16 +134,21 @@
                         <div class="col-lg-6 serv_bottom feature-grids">
                             <div class="featured-left text-left">
                                 <div class="bottom-gd px-3">
-                                    <span class="fa fa-hospital-o" aria-hidden="true"></span>
-                                    <h3 class="my-4">
-                                        Start Your Campaign</h3>
+                                    <a href="#" data-toggle="modal" data-target="#addPostModal">
+                                        <span class="fa fa-hospital-o" aria-hidden="true"></span>
+                                    </a>
+                                    <div class="d-inline mx-3 h3 ">Event 1</div>
                                     <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
                                 </div>
                                 <div class="bottom-gd fea active p-4">
-                                    <span class="fa fa-key" aria-hidden="true"></span>
-                                    <h3 class="my-3">Engage New Users</h3>
-                                    <p>Integer sit amet mattis quam, sit amet ultricies velit.convallis at tellus. Nulla quis lorem ipnut libero malesuada feugiat..</p>
+                                    <a href="#" data-toggle="modal" data-target="#addPostModal">
+                                        <span class="fa fa-hospital-o" aria-hidden="true"></span>
+                                    </a>
+                                    <div class=" d-inline mx-3 h3 ">Event 2</div>
+                                    <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
                                 </div>
+                                
+
                             </div>
                         </div>
 
@@ -493,10 +499,40 @@
             </div>
         </div>
     </section>
+
+   <div class="modal fade" id="addPostModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
     <!-- //contact -->
     <!-- footer -->
 
     <!-- //footer -->
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
 
 </body>
 
