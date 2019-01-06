@@ -175,6 +175,10 @@ nav {
     padding: 0;
 }
 
+#logo{
+    display:inline;
+}
+
 
 #logo a {
     float: left;
@@ -189,6 +193,7 @@ nav {
 
 #logo a span {
     color: #30c39e;
+
 }
 
 
@@ -205,7 +210,6 @@ nav:after {
  * and adding "position:reltive" */
 
 nav ul {
-    float: right;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -485,6 +489,7 @@ li > a:only-child:after {
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 9px;
+    margin-top:50px;
 }
 
 
@@ -1478,3 +1483,4 @@ a.move-top span {
         font-size: 1.4em;
     }
 }
+
