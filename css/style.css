@@ -440,7 +440,7 @@ li > a:only-child:after {
 /*-- banner --*/
 
 .main-content {
-    background: url(../images/banner.jpg) no-repeat center;
+    background-color: black;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -481,7 +481,7 @@ li > a:only-child:after {
 
 .banner-info-wthree h2 {
     color: rgba(255, 255, 255, 0.47);
-    font-size: 0.9em;
+    font-size: 1.3em;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 9px;
@@ -499,7 +499,7 @@ li > a:only-child:after {
 .banner-info-wthree {
     margin: 0 auto;
     text-align: center;
-    padding-top: 16em;
+    padding-top: 10em;
     position: relative;
 }
 
@@ -917,7 +917,7 @@ section.news img {
 /*-- /gallery --*/
 
 section#gallery {
-    background: #00cec9;
+    background: #ffb100;
     position: relative;
 }
 
@@ -931,7 +931,7 @@ section#gallery {
 /* contact */
 
 section.contact {
-    background: #282b34;
+    background: #000000;
     position: relative;
 }
 
