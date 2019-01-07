@@ -445,6 +445,7 @@ li > a:only-child:after {
 
 .main-content {
     background-color: black;
+    height:100vh;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -490,8 +491,13 @@ li > a:only-child:after {
     font-weight: 300;
     letter-spacing: 9px;
     margin-top:50px;
+    text-align:center;
 }
 
+.banner-info-wthree img{
+	margin:0 auto;
+	height:auto;
+}
 
 .banner-info-wthree a:hover {
     background: #00cec9;
@@ -504,8 +510,8 @@ li > a:only-child:after {
 .banner-info-wthree {
     margin: 0 auto;
     text-align: center;
-    /*padding-top: 10em;*/
-    position: relative;
+    padding: 10em;
+    position: absolute;
 }
 
 .img-effect img {
@@ -1264,8 +1270,20 @@ a.move-top span {
 
 @media(max-width:1024px) {
     .banner-info-wthree {
-        padding-top: 1em;
+        padding-top: 35vh;
     }
+
+	 .banner-info-wthree img{
+	 	height:250px;
+	 }
+	.banner-info-wthree h2{
+        font-size: 2em;
+        letter-spacing: 9px;
+        color: rgba(255, 255, 255, 0.47);
+        margin: 0.3em 0;
+        text-transform: uppercase;
+    }
+
 }
 
 @media(max-width:991px) {
@@ -1328,7 +1346,7 @@ a.move-top span {
 
 @media(max-width:800px) {
     .banner-info-wthree {
-        padding-top: 1em;
+        padding-top: 35vh;
     }
     .icon-scroll {
         bottom: -45%;
@@ -1337,14 +1355,18 @@ a.move-top span {
 }
 
 @media(max-width:768px) {
-    .banner-info-wthree h3 {
+    .banner-info-wthree h2{
         font-size: 2em;
-        letter-spacing: 1px;
-        color: #fff;
+        letter-spacing: 2.2px;
+        color: rgba(255, 255, 255, 0.47);
         margin: 0.3em 0;
         text-transform: uppercase;
     }
+	 .banner-info-wthree img{
+	 	height:200px;
+	 }
 }
+
 
 @media(max-width:736px) {
     .main-co ntent,
@@ -1401,6 +1423,9 @@ a.move-top span {
 }
 
 @media(max-width:640px) {
+	.banner-info-wthree img{
+	 	height:auto;
+	 }
     .banner-info-wthree h2 {
         font-size: 0.9em;
         letter-spacing: 3px;
@@ -1412,6 +1437,9 @@ a.move-top span {
 }
 
 @media(max-width:480px) {
+	.banner-info-wthree img{
+	 	height:auto;
+	 }
     .banner-info-wthree {
         padding: 9em 1em 0 1em;
     }
@@ -1438,14 +1466,17 @@ a.move-top span {
 }
 
 @media(max-width:414px) {
+	.banner-info-wthree{
+		padding-top:11em;
+	}
+	.banner-info-wthree img{
+	 	height:auto;
+	 }
     h3.tittle,
     h3.tittle.two {
         font-size: 1.6em;
     }
-    .banner-info-wthree {
-        margin: -30%;
-        /*padding-top: 6em;*/
-    }
+   
     .banner-info-wthree h3 {
         font-size: 1.3em;
         letter-spacing: 1px;
@@ -1471,6 +1502,12 @@ a.move-top span {
 }
 
 @media(max-width:384px) {
+	.banner-info-wthree{
+		padding-top:10em;
+	}
+	.banner-info-wthree img{
+	 	height:auto;
+	 }
     h3.tittle,
     h3.tittle.two {
         font-size: 1.5em;
@@ -1478,9 +1515,20 @@ a.move-top span {
 }
 
 @media(max-width:375px) {
+
+	
+	 .banner-info-wthree img{
+	 	height:auto;
+	 }
     h3.tittle,
     h3.tittle.two {
         font-size: 1.4em;
     }
+}
+
+@media(max-height:600px){
+	.banner-info-wthree {
+	 	padding-top:2em;
+	 }
 }
 
