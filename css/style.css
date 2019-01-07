@@ -504,7 +504,7 @@ li > a:only-child:after {
 .banner-info-wthree {
     margin: 0 auto;
     text-align: center;
-    padding-top: 10em;
+    /*padding-top: 10em;*/
     position: relative;
 }
 
@@ -1264,7 +1264,7 @@ a.move-top span {
 
 @media(max-width:1024px) {
     .banner-info-wthree {
-        padding-top: 13em;
+        padding-top: 1em;
     }
 }
 
@@ -1328,7 +1328,7 @@ a.move-top span {
 
 @media(max-width:800px) {
     .banner-info-wthree {
-        padding-top: 10em;
+        padding-top: 1em;
     }
     .icon-scroll {
         bottom: -45%;
@@ -1443,8 +1443,8 @@ a.move-top span {
         font-size: 1.6em;
     }
     .banner-info-wthree {
-        margin: 0 auto;
-        padding-top: 6em;
+        margin: -30%;
+        /*padding-top: 6em;*/
     }
     .banner-info-wthree h3 {
         font-size: 1.3em;
