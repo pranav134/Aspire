@@ -1139,7 +1139,7 @@ a.btn-mod {
 }
 
 form#contact-form label {
-    color: #ea4335;
+    color: #fff;
 }
 
 label {
@@ -1532,3 +1532,17 @@ a.move-top span {
 	 }
 }
 
+.social-footer li {
+    display: inline;
+    margin: 0 10px;
+    
+}
+ .social-footer li a i{
+    font-size: 24px;
+    color:#fff;
+    background-color: black;
+    padding:2px;
+}
+ .social-footer li a i:hover {
+    color: #00a8ff;
+}
