@@ -33,6 +33,7 @@
     <!-- //Fonts -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="css/light-modal.css">
 
 
 
@@ -222,36 +223,37 @@
    
    
     <!-- Gallery -->
+    <!-- Gallery -->
     <section class="gallery py-5" id="gallery">
         <div class="container py-lg-5">
             <h3 class="tittle text-center mb-lg-5 mb-3"><span class="sub-tittle two">Latest Info</span> Our Gallery</h3>
             <div class="row news-grids pb-lg-5 mt-3 text-center">
                 <div class="col-md-4 gal-img">
-                    <a href="#gal1"><img src="images/2.jpg" alt="news image" class="img-fluid"></a>
+                    <a href="#gallery-modal-1"><img src="images/2.jpg" alt="news image" class="img-fluid"></a>
                 </div>
                 <div class="col-md-4 gal-img">
-                    <a href="#gal2"><img src="images/3.jpg" alt="news image" class="img-fluid"></a>
+                    <a href="#gallery-modal-2"><img src="images/3.jpg" alt="news image" class="img-fluid"></a>
                 </div>
                 <div class="col-md-4 gal-img">
-                    <a href="#gal3"><img src="images/4.jpg" alt="news image" class="img-fluid"></a>
+                    <a href="#gallery-modal-3"><img src="images/4.jpg" alt="news image" class="img-fluid"></a>
                 </div>
                 <div class="col-md-4 gal-img mt-lg-4">
-                    <a href="#gal4"><img src="images/5.jpg" alt="news image" class="img-fluid"></a>
+                    <a href="#gallery-modal-4"><img src="images/5.jpg" alt="news image" class="img-fluid"></a>
                 </div>
                 <div class="col-md-4 gal-img mt-lg-4">
-                    <a href="#gal5"><img src="images/6.jpg" alt="news image" class="img-fluid"></a>
+                    <a href="#gallery-modal-5"><img src="images/6.jpg" alt="news image" class="img-fluid"></a>
                 </div>
                 <div class="col-md-4 gal-img mt-lg-4">
-                    <a href="#gal6"><img src="images/7.jpg" alt="news image" class="img-fluid"></a>
+                    <a href="#gallery-modal-6"><img src="images/7.jpg" alt="news image" class="img-fluid"></a>
                 </div>
                 <div class="col-md-4 gal-img mt-lg-4">
-                    <a href="#gal7"><img src="images/8.jpg" alt="news image" class="img-fluid"></a>
+                    <a href="#gallery-modal-7"><img src="images/8.jpg" alt="news image" class="img-fluid"></a>
                 </div>
                 <div class="col-md-4 gal-img mt-lg-4">
-                    <a href="#gal8"><img src="images/9.jpg" alt="news image" class="img-fluid"></a>
+                    <a href="#gallery-modal-8"><img src="images/9.jpg" alt="news image" class="img-fluid"></a>
                 </div>
                 <div class="col-md-4 gal-img mt-lg-4">
-                    <a href="#gal9"><img src="images/10.jpg" alt="news image" class="img-fluid"></a>
+                    <a href="#gallery-modal-9"><img src="images/10.jpg" alt="news image" class="img-fluid"></a>
                 </div>
             </div>
         </div>
@@ -347,7 +349,106 @@
         </div>
     </div>
     <!-- //popup -->
-    <!-- //news -->
+    <!-- slide Gallery -->
+     <div class="light-modal" id="gallery-modal-1" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+        <div class="light-modal-content animated fadeIn">
+            <img src="images/2.jpg" alt="from unsplash">
+            <a href="#gallery" class="light-modal-close-icon" aria-label="close">×</a>
+            <div class="light-modal-caption">This is the Image Gallery with Fade Effect.</div>
+            <div class="light-modal-navigation">
+                <a href="#gallery-modal-4" class="light-modal-navigation navigation-prev"></a>
+                <a href="#gallery-modal-2" class="light-modal-navigation navigation-next"></a>
+            </div>
+        </div>
+    </div>
+<div class="light-modal" id="gallery-modal-2" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+        <div class="light-modal-content animated flipInY">
+            <img src="images/3.jpg" alt="from unsplash">
+            <a href="#gallery" class="light-modal-close-icon" aria-label="close">×</a>
+            <div class="light-modal-caption">You can use any css animation on each modal like this one.</div>
+            <div class="light-modal-navigation">
+                <a href="#gallery-modal-1" class="light-modal-navigation navigation-prev"></a>
+                <a href="#gallery-modal-3" class="light-modal-navigation navigation-next"></a>
+            </div>
+        </div>
+    </div>
+<div class="light-modal" id="gallery-modal-3" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+        <div class="light-modal-content animated rollIn">
+            <img src="images/4.jpg" alt="from unsplash">
+            <a href="#gallery" class="light-modal-close-icon" aria-label="close">×</a>
+            <div class="light-modal-caption">I mean any...</div>
+            <div class="light-modal-navigation">
+                <a href="#gallery-modal-2" class="light-modal-navigation navigation-prev"></a>
+                <a href="#gallery-modal-4" class="light-modal-navigation navigation-next"></a>
+            </div>
+        </div>
+    </div>
+    <div class="light-modal" id="gallery-modal-4" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+        <div class="light-modal-content animated rollIn">
+            <img src="images/5.jpg" alt="from unsplash">
+            <a href="#gallery" class="light-modal-close-icon" aria-label="close">×</a>
+            <div class="light-modal-caption">I mean any...</div>
+            <div class="light-modal-navigation">
+                <a href="#gallery-modal-3" class="light-modal-navigation navigation-prev"></a>
+                <a href="#gallery-modal-5" class="light-modal-navigation navigation-next"></a>
+            </div>
+        </div>
+    </div>
+    <div class="light-modal" id="gallery-modal-5" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+        <div class="light-modal-content animated rollIn">
+            <img src="images/6.jpg" alt="from unsplash">
+            <a href="#gallery" class="light-modal-close-icon" aria-label="close">×</a>
+            <div class="light-modal-caption">I mean any...</div>
+            <div class="light-modal-navigation">
+                <a href="#gallery-modal-4" class="light-modal-navigation navigation-prev"></a>
+                <a href="#gallery-modal-6" class="light-modal-navigation navigation-next"></a>
+            </div>
+        </div>
+    </div>
+    <div class="light-modal" id="gallery-modal-6" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+        <div class="light-modal-content animated rollIn">
+            <img src="images/7.jpg" alt="from unsplash">
+            <a href="#gallery" class="light-modal-close-icon" aria-label="close">×</a>
+            <div class="light-modal-caption">I mean any...</div>
+            <div class="light-modal-navigation">
+                <a href="#gallery-modal-5" class="light-modal-navigation navigation-prev"></a>
+                <a href="#gallery-modal-7" class="light-modal-navigation navigation-next"></a>
+            </div>
+        </div>
+    </div>
+    <div class="light-modal" id="gallery-modal-7" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+        <div class="light-modal-content animated rollIn">
+            <img src="images/8.jpg" alt="from unsplash">
+            <a href="#gallery" class="light-modal-close-icon" aria-label="close">×</a>
+            <div class="light-modal-caption">I mean any...</div>
+            <div class="light-modal-navigation">
+                <a href="#gallery-modal-6" class="light-modal-navigation navigation-prev"></a>
+                <a href="#gallery-modal-8" class="light-modal-navigation navigation-next"></a>
+            </div>
+        </div>
+    </div>
+    <div class="light-modal" id="gallery-modal-8" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+        <div class="light-modal-content animated rollIn">
+            <img src="images/9.jpg" alt="from unsplash">
+            <a href="#gallery" class="light-modal-close-icon" aria-label="close">×</a>
+            <div class="light-modal-caption">I mean any...</div>
+            <div class="light-modal-navigation">
+                <a href="#gallery-modal-7" class="light-modal-navigation navigation-prev"></a>
+                <a href="#gallery-modal-9" class="light-modal-navigation navigation-next"></a>
+            </div>
+        </div>
+    </div>
+    <div class="light-modal" id="gallery-modal-9" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+        <div class="light-modal-content animated rollIn">
+            <img src="images/10.jpg" alt="from unsplash">
+            <a href="#gallery" class="light-modal-close-icon" aria-label="close">×</a>
+            <div class="light-modal-caption">I mean any...</div>
+            <div class="light-modal-navigation">
+                <a href="#gallery-modal-8" class="light-modal-navigation navigation-prev"></a>
+                <a href="#gallery-modal-1" class="light-modal-navigation navigation-next"></a>
+            </div>
+        </div>
+    </div>
     <!-- news -->
     <!-- <section class="news py-5" id="news">
         <div class="container py-lg-5">
