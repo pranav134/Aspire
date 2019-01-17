@@ -244,11 +244,11 @@ nav ul li ul li:hover {
 /* Background color change on Hover */
 
 nav a:hover {
-    color: #00cec9;
+    color: #ffb100;
 }
 
 .menu li.active a {
-    color: #00cec9;
+    color: #ffb100;
 }
 
 /* Hide Dropdowns by Default
@@ -500,7 +500,7 @@ li > a:only-child:after {
 }
 
 .banner-info-wthree a:hover {
-    background: #00cec9;
+    background: #ffb100;
     color: #fff;
     border: transparent;
 }
@@ -688,7 +688,7 @@ h3.tittle.two {
 
 .sub-tittle {
     font-size: 0.35em;
-    color: #00cec9;
+    color: #ffb100;
     font-weight: 500;
     letter-spacing: 1px;
     display: block;
@@ -739,7 +739,7 @@ h3.tittle.two {
 
 .bottom-gd:hover span,
 .bottom-gd2-active span {
-    background: #00cec9;
+    background: #ffb100;
     transition: 2s all;
     -webkit-transition: 2s all;
     -moz-transition: 2s all;
@@ -997,8 +997,8 @@ p.main_p4 {
 
 .contact_grid_right input[type="submit"],
 .contact_grid_right input[type="reset"]:hover {
-    background-color: #00cec9;
-    border: 1px solid #00cec9;
+    background-color: #ffb100;
+    border: 1px solid #ffb100;
 
 }
 
