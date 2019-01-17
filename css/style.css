@@ -1552,3 +1552,10 @@ a.move-top span {
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
+.modal-body p{
+    color:black;
+    font-size:1em;
+}
+.list ul{
+    list-style-type: none;
+}
