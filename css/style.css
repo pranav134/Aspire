@@ -10,7 +10,7 @@ body {
     margin: 0;
     font-size: 100%;
     background: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'ZCOOL XiaoWei', serif !important;
     scroll-behavior: smooth;
 }
 
@@ -1558,4 +1558,31 @@ a.move-top span {
 }
 .list ul{
     list-style-type: none;
+}
+.modal-header{
+    background-color: #ffb100;
+    border-bottom:1px solid #ffb100 !important;
+    border-right:1px solid #ffb100 !important;
+}
+.modal-body{
+    background-color: #b7b795;
+    border-right:1px solid #b7b795 !important;
+    font-size:1.2em;
+}
+.modal-footer{
+    background-color: #1a1a1a;
+    border-top: 1px solid #1a1a1a !important;
+    border-bottom: 1px solid #1a1a1a !important;
+    border-right: 1px solid #1a1a1a !important;
+}
+.modal-title {
+    font-weight:600;
+    font-size:2em;
+}
+
+.btn:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
 }
