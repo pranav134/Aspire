@@ -24,7 +24,7 @@ body a {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 input[type="button"],
@@ -1585,4 +1585,10 @@ a.move-top span {
 }
 button:focus {
   outline: none;
+}
+
+.h h3:hover{
+    opacity: .5;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
